@@ -8,25 +8,38 @@ namespace Laboration_2
 {
     class InOrOut
     {
-        public static void MakeAChoice()
+        public static void CheckIn()
         {
-            Console.WriteLine("press [s] to check in / [e] to check out.");
-            string theChoice = Console.ReadLine();
-            if (theChoice == "s")
+            string theChoice;
+            Console.WriteLine("press [i] to check in.");
+            theChoice = Console.ReadLine();
+
+            if (theChoice == "i")
                 CheckingIn();
-            else if (theChoice == "e")
+            else
+                CheckIn();
+        }
+
+        public static void CheckOut()
+        {
+            string theChoice;
+            Console.WriteLine("press [o] to check out.");
+            theChoice = Console.ReadLine();
+
+            if (theChoice == "o")
                 CheckingOut();
             else
-                MakeAChoice();
+                CheckOut();
+        }
+
+        private static void CheckingIn()
+        {
+            Times.CheckInTime();
         }
 
         private static void CheckingOut()
         {
-            Times.CheckTime();
-        }
-        private static void CheckingIn()
-        {
-            Times.CheckTime();
+            Times.CheckOutTime();
         }
     }
 }
