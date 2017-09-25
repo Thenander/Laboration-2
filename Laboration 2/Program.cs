@@ -1,24 +1,24 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-//namespace Laboration_2
-//{
-//    class Program
-//    {
-//        static void Main()
-//        {
-//            User.Person();
+namespace Laboration_2
+{
+    class Program
+    {
+        static void Main()
+        {
+            User.Person();
 
-//            InOrOut.CheckIn();
+            InOrOut.CheckIn();
 
-//            InOrOut.CheckOut();
+            InOrOut.CheckOut();
 
-//            Console.WriteLine();
-//            Console.WriteLine("test");
+            Console.WriteLine();
+            Console.WriteLine("test");
 
-//        }
-//    }
-//}
+        }
+    }
+}
