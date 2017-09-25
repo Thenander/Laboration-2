@@ -1,30 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Laboration_2
-{
-    class Program
-    {
-        static void Main()
-        {
+//namespace Laboration_2
+//{
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            User.Person();
 
-            User.Person();
+//            InOrOut.CheckIn();
 
-            InOrOut.CheckIn();
+//            InOrOut.CheckOut();
 
-            InOrOut.CheckOut();
+//            Console.WriteLine();
+//            Console.WriteLine("test");
 
-            Console.WriteLine("test");
-
-
-
-            //TimeSpan diff = checkOutTime.Subtract(checkInTime);
-
-            //Console.WriteLine(diff);
-
-        }
-    }
-}
+//        }
+//    }
+//}
