@@ -12,6 +12,7 @@ namespace Laboration_2
         {
             User.Person();
 
+
             InOrOut.CheckIn();
 
             InOrOut.CheckOut();
